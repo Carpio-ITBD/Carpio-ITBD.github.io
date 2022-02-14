@@ -79,9 +79,10 @@ button {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
   
-  button:hover {
+button:hover {
     background-color: #33cc00;
     color: #121212;
-  }
+    border-radius: 10px;
+}
