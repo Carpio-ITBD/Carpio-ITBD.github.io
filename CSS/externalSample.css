@@ -62,7 +62,6 @@ div.side {
 
 a {
     color: #66ff33;
-    display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: underline;
