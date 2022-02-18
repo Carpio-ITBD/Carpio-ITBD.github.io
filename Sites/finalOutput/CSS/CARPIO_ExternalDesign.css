@@ -88,3 +88,11 @@ a.button:hover {
     color: #121212;
     border-radius: 10px;
 }
+
+abbr {
+    color: #33cc00;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-style: italic;
+}
