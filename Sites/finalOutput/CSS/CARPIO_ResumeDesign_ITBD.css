@@ -15,7 +15,7 @@ div {
 
 div.left {
     width: 30%;
-    height: auto;
+    height: 100%;
     border-right: 6px solid #33cc00;
     margin: 20px;
     padding: 20px;
@@ -24,8 +24,9 @@ div.left {
 
 div.right {
     width: 30%;
-    height: auto;
+    height: 100%;
     margin: 10px;
+    overflow-y: hidden;
 }
 
 
