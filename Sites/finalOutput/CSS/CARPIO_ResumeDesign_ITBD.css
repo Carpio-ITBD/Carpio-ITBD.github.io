@@ -24,8 +24,8 @@ div.left {
     border-right: 4px solid #33cc00;
     margin: 20px;
     padding: 20px;
-
     float:left
+    overflow-y: scroll
 
 }
 
@@ -35,7 +35,7 @@ div.right {
     max-height: 100vh;
     margin: 10px;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: scroll
 
     float:left
 }
@@ -100,4 +100,17 @@ hr {
     border-width:0;
     color:#33cc00;
     background-color: #33cc00;
+}
+
+/*CODE FOR HIGHDING SCROLL BAR*/
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
