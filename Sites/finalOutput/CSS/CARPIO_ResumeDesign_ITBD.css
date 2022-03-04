@@ -93,6 +93,8 @@ h4, p.desc {
 }
 
 hr {
+    height:5px;
+    border-width:0;
     color:#33cc00;
     background-color: #33cc00;
 }
