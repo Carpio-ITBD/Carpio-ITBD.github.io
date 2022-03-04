@@ -1,9 +1,7 @@
 body {
     color: #e3e3e3;
     background-color: #121212;
-
     text-align: justify;
-
     height: 100%;
 }
 
@@ -39,28 +37,6 @@ div.right {
 
     float:left;
 }
-
-
-/*FLEX FOR SIDE BY SIDE FITTING OF THE DIV*/
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 20px;
-}
-
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
 
 
 /*STYLING FOR IMAGES*/
