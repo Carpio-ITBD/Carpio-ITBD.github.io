@@ -16,9 +16,12 @@ div {
 div.left {
     width: 30%;
     height: 100%;
-    border-right: 6px solid #33cc00;
+    border-right: 4px solid #33cc00;
     margin: 20px;
     padding: 20px;
+    overflow-y: hidden;
+
+    float:left
 
 }
 
@@ -26,7 +29,10 @@ div.right {
     width: 30%;
     height: 100%;
     margin: 10px;
+    padding: 20px;
     overflow-y: hidden;
+
+    float:left
 }
 
 
@@ -56,8 +62,7 @@ div.right {
 
 img.profile {
     width: 200px;
-    padding: 20px;
     border-radius: 50%;
-    border: 5px solid #33cc00;
+    border: 3px solid #33cc00;
 }
 
