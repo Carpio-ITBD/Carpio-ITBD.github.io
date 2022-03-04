@@ -17,3 +17,11 @@ div.left {
     width: 30%;
     height: auto;
 }
+
+
+/*STYLING FOR IMAGES*/
+
+img.profile {
+    width: 150px;
+    border-radius: 50%;
+}
