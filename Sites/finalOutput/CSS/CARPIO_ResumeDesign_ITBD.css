@@ -91,3 +91,8 @@ h1, h2 {
 h4, p.desc {
     color: #ccc;
 }
+
+hr {
+    color:#33cc00;
+    background-color: #33cc00;
+}
