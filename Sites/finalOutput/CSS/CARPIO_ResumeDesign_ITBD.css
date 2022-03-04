@@ -17,11 +17,13 @@ div.left {
     width: 30%;
     height: auto;
     border-right: 6px solid #33cc00;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
+
 }
 
 div.right {
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: 10px;
 }
