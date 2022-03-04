@@ -3,6 +3,8 @@ body {
     background-color: #292929;
 
     text-align: justify;
+
+    height: 100%;
 }
 
 
@@ -64,6 +66,7 @@ img.profile {
     width: 200px;
     border-radius: 50%;
     border: 3px solid #33cc00;
+    align-self: center;
 }
 
 ul.skill, ul.hobby {
