@@ -55,7 +55,8 @@ div.right {
 /*STYLING FOR IMAGES*/
 
 img.profile {
-    width: 150px;
+    width: 200px;
+    padding: 20px;
     border-radius: 50%;
     border: 5px solid #33cc00;
 }
