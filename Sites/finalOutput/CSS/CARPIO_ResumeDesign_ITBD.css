@@ -8,7 +8,7 @@ body {
 }
 
 
-/*STYLING FOR THE DIV ELEMTS*/
+/*STYLING FOR THE DIV ELEMENTS*/
 
 div {
     width: 100%;
@@ -38,6 +38,17 @@ div.right {
     overflow-y: scroll;
 
     float:left;
+}
+
+
+.barBG {
+    background-color: #929292;
+    width: 100%;
+    border-radius: 16px;
+}
+.bar {
+    background-color: #33cc00;
+    width: 100%;
 }
 
 
