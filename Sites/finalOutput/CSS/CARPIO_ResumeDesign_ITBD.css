@@ -84,7 +84,7 @@ ul.education {
 
 /* TEXT FORMATS */
 
-h1, h2 {
+h1, h2, h3.left {
     color: #33cc00;
 }
 
