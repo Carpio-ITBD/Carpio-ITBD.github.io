@@ -41,12 +41,12 @@ div.right {
 }
 
 
-.barBG {
+div.barBG {
     background-color: #929292;
     width: 100%;
     border-radius: 16px;
 }
-.bar {
+div.bar {
     background-color: #33cc00;
     width: 100%;
 }
