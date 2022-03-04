@@ -1,0 +1,19 @@
+body {
+    color: #e3e3e3;
+    background-color: #292929;
+
+}
+
+
+/*STYLING FOR THE DIV ELEMTS*/
+
+div {
+    width: 100%;
+    height: 100%;
+
+}
+
+div.left {
+    width: 30%;
+    height: auto;
+}
