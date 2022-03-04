@@ -1,7 +1,7 @@
 body {
     color: #e3e3e3;
     background-color: #292929;
-    
+
     text-align: justify;
 }
 
@@ -64,5 +64,17 @@ img.profile {
     width: 200px;
     border-radius: 50%;
     border: 3px solid #33cc00;
+}
+
+ul.skill ul.hobby {
+    list-style-image: url('https://carpio-itbd.github.io/Images/SkillsG.png');
+}
+
+ul.project {
+    list-style-image: url('https://carpio-itbd.github.io/Images/ProjectG.png');
+}
+
+ul.education {
+    list-style-image: url('https://carpio-itbd.github.io/Images/EducationG.png');
 }
 
