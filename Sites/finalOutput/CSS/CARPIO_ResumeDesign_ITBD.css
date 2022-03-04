@@ -26,5 +26,6 @@ div.left {
 img.profile {
     width: 150px;
     border-radius: 50%;
+    border: 5px solid #33cc00;
 }
 
