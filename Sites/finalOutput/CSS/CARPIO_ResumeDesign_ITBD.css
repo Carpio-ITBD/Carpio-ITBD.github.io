@@ -31,6 +31,12 @@ div.right {
 
 /*FLEX FOR SIDE BY SIDE FITTING OF THE DIV*/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
 .flex-container {
     display: flex;
 }
