@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SPACE</title>
+<link rel="icon" href="https://carpio-itbd.github.io/Images/Favicon/crying.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="CSS/animatedBackground.css" rel="stylesheet">
+<link href="CSS/basic.css" rel="stylesheet">>
+</head>
+<body>
+<link rel="stylesheet" type="text/css">
+<!--CARPIO, JOHN RANDEL-->
+<!--2022/03/24-->
+
+<!-- https://carpio-itbd.github.io/ -->
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+
+<div align="center" class="border-round">
+    <div style="display: inline-block;">
+        <img src="Image/ITBD.jpg" width="580px" height="464px" usemap="#objects">
+    </div>
+    <div style="display: inline-block;">
+        <p style="color:rgba(21, 214, 79, 0.938); font-size: 50px; font-weight: bold; vertical-align: text-top;" id="title">SOLAR SYSTEM</p>
+        <p style=" color: rgba(34, 219, 90, 0.966); font-size: 30px; vertical-align: text-top;" id="objName"> </p>
+        <p class="description" id="objDesc"> </p>
+    </div>
+
+</div>
+
+<map name="objects">
+    <area shape="rectangle" title="JUPITER" href="HTML/CARPIO_Jupiter_ITBD.html" coords="102,157,292,299" onmouseover="writeObj('JUPITER', 'Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun.')" onmouseleave="writeObj(' ', ' ');" onclick="">
+    <area shape="circle" title="MERCURY" href="HTML/CARPIO_Mercury_ITBD.html" coords="269,400,46" onmouseover="writeObj('MERCURY', 'Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun s planets.' )" onmouseleave="writeObj(' ', ' ');" onclick="">
+    <area shape="poly" title="SATURN" href="HTML/CARPIO_Saturn_ITBD.html" coords="125, 129, 109, 107, 97, 89, 89,67, 87,45, 90, 33, 103, 22, 121, 19, 151, 19, 176, 26, 219, 42, 250, 58, 282, 78, 310, 89, 323, 99, 342, 120, 371, 145, 398, 172, 416, 194, 430, 214, 440, 230, 444, 245, 448, 266, 441, 282, 426, 291, 405, 294, 377, 290, 356, 281, 313, 266, 317, 293, 316, 212, 311, 184, 299, 163, 281, 142, 265, 127, 249, 118, 227, 112, 205, 107, 185, 109, 165, 111, 148, 117, 127, 130" onmouseover="writeObj('SATURN', 'Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.')" onmouseleave="writeObj(' ', ' ');" onclick="">
+</map>
+
+<script>
+    function writeObj(title, description) {
+        document.getElementById("objName").innerHTML=title;
+        document.getElementById("objDesc").innerHTML=description;
+        return
+    }
+</script>
+
+
+
+
+
+</body>
+</html>

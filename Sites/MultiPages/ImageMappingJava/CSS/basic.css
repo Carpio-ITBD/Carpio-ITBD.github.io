@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.description {
+    font-size: 16px;
+    color: rgb(48, 228, 153);
+    text-align: right;
+    width: 580px;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+    vertical-align: text-top;
+}
