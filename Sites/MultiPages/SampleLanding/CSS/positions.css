@@ -1,0 +1,48 @@
+.centerScreen{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+}
+
+.divHalf {
+    width: 50%;
+    float: left;
+}
+
+.divQuarter {
+    width: 25%;
+    float: left;
+}
+
+.div3Quarter {
+    width: 75%;
+    float: left;
+}
+
+.divThird {
+    width: 32%;
+    float: left;
+}
+
+.divSideBar {
+    width: 20%;
+    float: left;
+    max-height: 90vh;
+}
+
+.divContent {
+    width: 75%;
+    float: right;
+    max-height: 90vh;
+    padding-left: 10px;
+}
+
+.links{
+    display: inline-block;
+    position: relative;
+}
