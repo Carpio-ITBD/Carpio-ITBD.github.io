@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GALLERY</title>
+<link rel="icon" href="https://carpio-itbd.github.io/Images/Favicon/crying.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="../CSS/animatedBackground.css" rel="stylesheet">
+<link href="../CSS/positions.css" rel="stylesheet">
+<link href="../CSS/appearance.css" rel="stylesheet">
+</head>
+<body>
+<link rel="stylesheet" type="text/css">
+<script src="../script/fix.js"></script>
+<script src="../script/functions.js"></script>
+
+<!--CARPIO, JOHN RANDEL-->
+<!--2022/03/28-->
+
+<!-- https://carpio-itbd.github.io/ -->
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+<div class="mainDiv">
+    <div class="divSideBar divOverflow scroller">
+        <div>
+            <object type="image/svg+xml" data="../images/Cassette player-amico.svg" width="100%" height="100%"></object>
+        </div>
+        <div>
+            <h1 class="heading" style="margin-top: -2%; font-size: 9vh;">MY BEAT</h1>
+        </div>
+
+        <div align="left">
+            <div>
+                <a href="#top" class="barButton">GO BACK TO TOP</a>
+            </div>
+        </div> 
+        <div align="left">
+            <div>
+                <a href="../index.html" class="barButton">GO BACK HOME</a>
+            </div>
+        </div>   
+    </div>
+
+    <div class="divContent divOverflow scroller" style="padding-top: 2%;">
+
+        <div id="top" class="divMedia withBorder musicButton" onclick="clickButton('../media/sound/Bully.mp3','playStatus1')">
+            <div class="divThird" style="margin-left: -25px;">
+                <img src="../images/Album Covers/Mori_Lofi.jpg" class="cover">
+            </div>
+            <div class="divHalf" style="float: right; margin-right: -25px;">
+                <p class="headingMusic">いじめっ子Bully （Lofi Ver.）</p>
+                <p class="headingMusicA"> by MORI CALLIOPE</p> <br>
+
+                <p id="playStatus1" class="headingMusicA">CLICK TO PLAY PREVIEW</p>
+            </div>
+        </div>
+
+        <div class="divMedia withBorder musicButton" onclick="clickButton('../media/sound/Unlasting.mp3','playStatus2')">
+            <div class="divThird" style="margin-left: -25px;">
+                <img src="../images/Album Covers/Unlasting_-_LiSA_Reguler_Edition.jpg" class="cover">
+            </div>
+            <div class="divHalf" style="float: right; margin-right: -25px;">
+                <p class="headingMusic">UNLASTING</p>
+                <p class="headingMusicA"> by LISA</p> <br>
+
+                <p id="playStatus2" class="headingMusicA">CLICK TO PLAY PREVIEW</p>
+            </div>
+        </div>
+
+        <div class="divMedia withBorder musicButton" onclick="clickButton('../media/sound/Diver.mp3','playStatus3')">
+            <div class="divThird" style="margin-left: -25px;">
+                <img src="../images/Album Covers/Divercovernico.jpg" class="cover">
+            </div>
+            <div class="divHalf" style="float: right; margin-right: -25px;">
+                <p class="headingMusic">DIVER</p>
+                <p class="headingMusicA"> by NICO</p> <br>
+
+                <p id="playStatus3" class="headingMusicA">CLICK TO PLAY PREVIEW</p>
+            </div>
+        </div>
+
+        <div class="divMedia withBorder musicButton" onclick="clickButton('../media/sound/Pino To Ameri.mp3','playStatus4')">
+            <div class="divThird" style="margin-left: -25px;">
+                <img src="../images/Album Covers/Pino_to_Ameri.webp" class="cover">
+            </div>
+            <div class="divHalf" style="float: right; margin-right: -25px;">
+                <p class="headingMusic">PINO TO AMERI</p>
+                <p class="headingMusicA"> by ISHIZAWI HUWEI</p> <br>
+
+                <p id="playStatus4" class="headingMusicA">CLICK TO PLAY PREVIEW</p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+</div>
+
+
+
+
+</body>
+</html>

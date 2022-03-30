@@ -42,7 +42,7 @@
     padding-left: 10px;
 }
 
-.links{
+.links, .divMedia, .divMedia2 {
     display: inline-block;
     position: relative;
 }
