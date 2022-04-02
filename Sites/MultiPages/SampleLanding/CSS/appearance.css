@@ -137,6 +137,10 @@ html, body {
     position: fixed;
 }
 
+.divContent {
+    overflow-x: hidden;
+}
+
 .divOverflow {
     overflow-y: scroll;
 }

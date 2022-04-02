@@ -1,3 +1,5 @@
+// FUNCTIONS FOR AUDIO PLAY
+
 var playStatus = 0;
 var audio;
 var prevPlayStatusID;
@@ -28,4 +30,25 @@ function pause(media, playStatusID) {
         clickButton(media, playStatusID);
     }
 
+}
+
+
+// FUNCTIONS FOR VISIBILITY OF TRAVEL AREAS
+
+function hideAll() {
+    document.getElementById('travelSpace').style.display = "none";
+    document.getElementById('travelPhilippines').style.display = "none";
+    document.getElementById('travelJapan').style.display = "none";
+    document.getElementById('travelIndia').style.display = "none";
+    document.getElementById('travelGermany').style.display = "none";
+    document.getElementById('travelMexico').style.display = "none";
+    document.getElementById('travelNewZealand').style.display = "none";
+    document.getElementById('travelKorea').style.display = "none";
+    return;
+}
+
+function showText(country) {
+    hideAll();
+    document.getElementById(country).style.display = "block";
+    return;
 }
