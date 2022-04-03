@@ -168,6 +168,11 @@ html, body {
     margin-top: -1%;
 }
 
+.divCard {
+    background-color: #92E3A9;
+    color: #37474F;
+}
+
 .withBorder {
     background-color: transparent; 
     color: #E9F9EE; 
@@ -251,6 +256,12 @@ img.thumbnail {
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
+}
+
+.rounded {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
 }
 
 div.links:hover img.thumbnail{
