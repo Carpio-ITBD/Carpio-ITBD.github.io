@@ -73,7 +73,7 @@ html, body {
 
 
 /*Link design but Buttons*/
-.buttons {
+.buttons, .tag {
     background-color: transparent; 
     color: #E9F9EE; 
     border-radius: 10px;
@@ -86,6 +86,10 @@ html, body {
     margin: 2px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
+}
+
+.tag {
+    border-radius: 30px;
 }
 
 .barButton {
@@ -171,6 +175,18 @@ html, body {
     border: 2px solid #92E3A9;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.withBorderCompact {
+    background-color: transparent; 
+    color: #E9F9EE; 
+    border-radius: 10px;
+    border: 2px solid #92E3A9;
+}
+
+.divReview {
+    width: 99%;
+    height: 450px;
 }
 
 /*FORMATTING FOR PROGRESS BAR*/
@@ -274,6 +290,23 @@ div.links:hover div.middle {
   scrollbar-width: none;  /* Firefox */
 }
 
+
+/*CODE FOR THE SCROLLBAR STYLE*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #92e3a9;
+    border-radius: 10px;
+}
 
 /*Various other elements*/
 
