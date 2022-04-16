@@ -9,9 +9,7 @@ body {
     
 body {
     background: url("../Images/pokedexHomeBGMobile.svg") no-repeat center center fixed;
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
+    background-size: 110%;
 }
 
 }
