@@ -1,0 +1,66 @@
+.divListItem {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10vh;
+    padding-top: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+
+    transition: .5s ease;
+}
+
+.divListItem:hover {
+    cursor: pointer;
+}
+
+.divInput {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10vh;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    width: 220px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* MOBILE LAYOUT */
+
+@media screen and (orientation:portrait) {
+    .divListItem {
+        width: 90%;
+    }
+}
+
+
+
+
+/*CODE FOR THE SCROLLBAR STYLE*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F0F0F0;
+    border-radius: 10px;
+}
