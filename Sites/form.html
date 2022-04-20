@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HOME</title>
+<link rel="icon" href="https://carpio-itbd.github.io/Images/Favicon/crying.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="" rel="stylesheet">
+
+<style>
+
+body {
+    color: #e9f9ee;
+    background-color: #37474f;
+}
+    
+fieldset{
+  border: solid 1px #92e3a9;
+  border-radius: 10px;
+  min-width: 200px;
+  width: 90%;
+}
+
+legend{
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: #92e3a9;
+  font-family: "Tahoma";
+}
+
+
+label{
+  margin-top: 1em;
+  font-family: "Tahoma";
+}
+
+.checks label{
+  margin-top: 0;
+}
+
+label:first-of-type{
+  margin-top:0;
+} 
+
+
+input[type="text"] {
+    border-radius: 10px;
+    width: 90%;
+}
+
+textarea{
+  min-height: 8em;
+  min-width: 80%;
+  padding: .5em;
+  border: solid 1px #999;
+  border-radius: 4px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin-right:.5em;
+  resize:none;
+  
+}*/
+
+
+
+.checks{
+  margin-bottom: 1em;
+}
+
+.checks p{
+  margin-bottom:0;
+  font-family: "Tahoma";
+}
+
+input[type="submit"]{
+  margin-top: 1em;
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #92e3a9;
+  color: #37474f;
+  font-family: 'Tahoma', sans-serif;
+  font-size: .8em;
+  font-weight: bolder;
+}
+
+
+@media screen and (min-width: 430px){
+  legend{
+    font-size: 1.75em;
+  }
+}
+
+fieldset {
+  width: 90%;
+  min-width:320px;
+  margin:auto;
+}
+
+.checks label{
+  display: inline-block;
+  padding-top: .5em;
+  margin-top: 0;
+  margin-right: .5em;
+}
+
+</style>
+
+</head>
+<body>
+<link rel="stylesheet" type="text/css">
+<!--CARPIO, JOHN RANDEL-->
+<!--2022/04/17-->
+
+<!-- https://carpio-itbd.github.io/ -->
+
+<div>
+
+    <form action="" method="POST">
+
+        <fieldset>
+
+            <legend>PARTICIPANT'S NAME</legend>
+
+            <label for="firstName"></label>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter your First Name">
+
+            <label for="lastName"></label>
+            <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>QUESTIONNAIRE</legend>
+            <label>CHOOSE A DRINK:</label><br>
+
+            
+            <input type="radio" name="drink" id="drinkCoffee" value="coffee">
+            <label for="drinkCoffee">COFFEE</label><br><br>
+
+            <input type="radio" name="drink" id="drinkTea" value="tea">
+            <label for="drinkTea">TEA</label><br><br>
+
+            <input type="radio" name="drink" id="drinkHotChocolate" value="choco">
+            <label for="drinkHotChocolate">HOT CHOCOLATE</label><br><br>
+
+
+            <legend>WHAT ICECREAM DO YOU LIKE?</legend>
+
+            
+            <input type="checkbox" name="icecream" id="icecreamChoco" value="choco">
+            <label for="icecreamChoco">CHOCOLATE</label><br><br>
+
+            <input type="checkbox" name="icecream" id="icecreamChocoPudding" value="chocoPudding">
+            <label for="icecreamChocoPudding">CHOOCLATE PUDDING</label><br><br>
+
+            <input type="checkbox" name="icecream" id="icecreamChocoPeanutButter" value="peanutButter">
+            <label for="icecreamChocoPeanutButter">CHOCOLATE PEANUT BUTTER</label><br><br>
+
+            <input type="checkbox" name="icecream" id="icecreamVanilla" value="vanilla">
+            <label for="icecreamVanilla">VANILLA</label><br><br>
+
+            <input type="checkbox" name="icecream" id="icecreamStrawberry" value="strawberry">
+            <label for="icecreamStrawberry">STRAWBERRY</label><br><br>
+
+            <label for="schools">SELECT A SCHOOL</label>
+            <select name="schools" id="schools">
+                <option value="UE">University of the East</option>
+                <option value="FEU">Far Eastern university</option>
+            </select><br><br>
+
+
+
+            <legend>COMMENTS:</legend>
+            <textarea name="message" id="message" placeholder="Type your message here."></textarea>
+
+            <br><br>
+            <input type="submit" id="submit" value="SUBMIT">
+
+        </fieldset>
+
+    </form>
+
+</div>
+
+</body>
+</html>

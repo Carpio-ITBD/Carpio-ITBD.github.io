@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'pkmn';
+    src: url('Fonts/pkmn_rbygsc-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, input::placeholder {
+    font-family: 'pkmn';
+    font-size: 16px;
+}
+
+.divListItem {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10vh;
+    padding-top: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+
+    transition: .5s ease;
+}
+
+.divListItem:hover {
+    cursor: pointer;
+}
+
+.divInput {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10vh;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    width: 220px;
+    height: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* MOBILE LAYOUT */
+
+@media screen and (orientation:portrait) {
+    .divListItem, .divInput {
+        zoom: 1;
+        -moz-transform: scale(1);
+
+    }
+}
+
+
+
+
+/*CODE FOR THE SCROLLBAR STYLE*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F0F0F0;
+    border-radius: 10px;
+}
