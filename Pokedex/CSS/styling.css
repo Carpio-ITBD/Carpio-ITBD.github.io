@@ -60,6 +60,12 @@ input:focus {
     }
 }
 
+.divListItemMobile, .divInputMobile {
+    zoom: 2;
+    -moz-transform: scale(2);
+
+}
+
 
 
 
