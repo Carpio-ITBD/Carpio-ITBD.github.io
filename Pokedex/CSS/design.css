@@ -10,7 +10,7 @@ html, input::placeholder, input {
     font-size: 16px;
 }
 
-.divListItem {
+.divListItem, .divInput {
     width: 300px;
     height: 30px;
     font-size: 20px;
@@ -24,29 +24,32 @@ html, input::placeholder, input {
     transition: .5s ease;
 }
 
-.divListItem:hover {
-    cursor: pointer;
+.divInput {
+    width: 50%;
+    min-width: 300px;
 }
 
-.divInput {
-    width: 80%;
-    height: 30px;
-    font-size: 20px;
-    background-color: #F0F0F0;
-    border-radius: 10vh;
-    padding-top: 10px;
-    margin: 10px;
+.divListItem:hover {
+    cursor: pointer;
 }
 
 input {
     border: none;
     background-color: transparent;
-    width: 220px;
-    height: 100%;
+    width: 200px;
 }
 
 input:focus {
     outline: none;
+}
+
+.divNav {
+    width: 48%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10vh;
+    padding-top: 10px;
+    margin: 10px;
 }
 
 
