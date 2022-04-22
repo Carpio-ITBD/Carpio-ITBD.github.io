@@ -1,7 +1,0 @@
-@media screen and (orientation:portrait) {
-    .divListItem, .divInput {
-        zoom: 1;
-        -moz-transform: scale(1);
-
-    }
-}

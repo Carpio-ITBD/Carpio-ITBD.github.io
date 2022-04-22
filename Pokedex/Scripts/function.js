@@ -32,6 +32,8 @@ function changeCSS(cssFile, cssLinkIndex) {
 }
 
 //Detect Device Type which is insanely long lol
+//Not working as intended but keeping as comment for future use
+/*
 var isMobile = false;
 
 window.mobileCheck = function() {
@@ -50,4 +52,33 @@ if (isMobile == true) {
     }
 }
 
+*/
 
+var deviceSize;
+
+function detectDevice() {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        document.getElementById('mobileSize').href = "#";
+        deviceSize = "tablet";
+        return console.log("tablet");
+    }
+    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        
+        document.getElementById('mobileSize').href = "CSS/sizesMobile.css";
+
+        /* THIS IS FOR CREATING NEW FILE; REPLACING FOR MORE STRAIGHTFORWARD METHOD
+        var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", "CSS/sizesMobile.css")
+        document.getElementsByTagName("head")[0].appendChild(fileref)
+        */
+
+        deviceSize = "mobile";
+        return console.log("mobile");
+    }
+    document.getElementById('mobileSize').href = "#";
+    deviceSize = "desktop"
+    return console.log("desktop");
+};
