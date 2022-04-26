@@ -82,3 +82,22 @@ function detectDevice() {
     deviceSize = "desktop"
     return console.log("desktop");
 };
+
+
+//Initializing Masonry Layout for Pokedex List
+var grid = document.querySelector('#pokedexList');
+var msnry = new Masonry( grid, {
+  // options...
+  itemSelector: '.divListItem',
+  columnWidth: 200
+});
+
+
+//Playing Audio
+function playCry(pokemon) {
+    var url = "https://play.pokemonshowdown.com/audio/cries/";
+    url = url.concat(pokemon, ".ogg")
+
+    var cry = new Audio(url);
+    cry.play();
+}

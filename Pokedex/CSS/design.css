@@ -21,7 +21,7 @@ html, input::placeholder, input {
     display: inline-block;
     position: relative;
 
-    transition: .5s ease;
+    transition: 3s ease;
 }
 
 .divInput {
@@ -52,6 +52,25 @@ input:focus {
     margin: 10px;
 }
 
+.divProfile {
+    background-color: #f0f0f0;
+    width: 30%;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+
+    transition: 1s ease;
+}
+
+.profilePic {
+    border: solid #222224;
+    border-radius: 50%;
+    width: 70%;
+
+    display: inline-block;
+    position: relative;
+}
 
 /* MOBILE LAYOUT */
 
@@ -60,6 +79,10 @@ input:focus {
         zoom: 1;
         -moz-transform: scale(1);
 
+    }
+
+    .divProfile {
+        width: 80%;
     }
 }
 
