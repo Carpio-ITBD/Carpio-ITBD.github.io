@@ -85,11 +85,30 @@ function detectDevice() {
 
 
 //Initializing Masonry Layout for Pokedex List
+function masonryPokedex() {
+    var grid = document.querySelector('#pokedexList');
+    var msnry = new Masonry( grid, {
+        // options...
+        itemSelector: '.divListItem',
+        columnWidth: 200
+    });
+}
+
+//Initializing Masonry Layout for Pokemon Profile
+function masonryPokemon() {
+    var grid = document.querySelector('.grid');
+    var msnry = new Masonry( grid, {
+        // options...
+        itemSelector: '.divListItem',
+        p
+    });
+}
+
 var grid = document.querySelector('#pokedexList');
-var msnry = new Masonry( grid, {
-  // options...
-  itemSelector: '.divListItem',
-  columnWidth: 200
+    var msnry = new Masonry( grid, {
+        // options...
+        itemSelector: '.divListItem',
+        columnWidth: 200
 });
 
 

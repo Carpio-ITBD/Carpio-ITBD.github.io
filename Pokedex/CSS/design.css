@@ -8,6 +8,7 @@
 html, input::placeholder, input {
     font-family: 'pkmn';
     font-size: 16px;
+    line-height: 150%;
 }
 
 .divListItem, .divInput {
@@ -56,17 +57,84 @@ input:focus {
     background-color: #f0f0f0;
     width: 30%;
     height: auto;
-    margin: 2%;
-    padding: 2%;
+    margin: 1%;
+
+    border: 10px solid #222224;
     border-radius: 10px;
+
+    display: inline-block;
+    position: relative;
 
     transition: 1s ease;
 }
 
+.divDesc {
+    font-size: 2vh;
+    background-color: #f0f0f0;
+    width: 60%;
+    height: auto;
+    margin: 1%;
+
+    border: 5px solid #222224;
+    border-radius: 10px;
+
+    display: inline-block;
+    position: relative;
+
+    transition: 1s ease;
+}
+
+.divData, .divStats, .divBreeding {
+    font-size: 2vh;
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    padding: 2%;
+
+    border: 5px solid #222224;
+    border-radius: 10px;
+
+    display: inline-block;
+    position: relative;
+
+    transition: 1s ease;
+}
+
+.pokeballCenter {
+
+    height: 60px;
+    width: 60px;
+    background-color: #f0f0f0;
+ 
+    border: 20px solid #222224;
+    border-radius: 50%;
+
+    z-index: 9;
+
+    display: inline-block;
+    position: relative;
+}
+
+.pokeballLine {
+
+    height: 40px;
+    width: 102%;
+    background-color: #222224;
+
+    position: absolute;
+    top: 25%;
+}
+
+
+
 .profilePic {
+    /*
     border: solid #222224;
     border-radius: 50%;
+    */
+    
     width: 70%;
+    padding: 10%;
 
     display: inline-block;
     position: relative;
@@ -81,7 +149,7 @@ input:focus {
 
     }
 
-    .divProfile {
+    .divProfile, .divDesc {
         width: 80%;
     }
 }
