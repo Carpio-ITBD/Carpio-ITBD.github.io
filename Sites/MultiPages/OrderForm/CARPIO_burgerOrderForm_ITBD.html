@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HOME</title>
+<link rel="icon" href="https://carpio-itbd.github.io/Images/Favicon/crying.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+    html, body {
+        background-color: #F00;
+        color: aliceblue;
+        font-size: large;
+    }
+
+    fieldset {
+        border: 5px solid aliceblue;
+        border-radius: 10px;
+        padding: 2%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    legend {
+        font-size: larger;
+        border: 10px;
+    }
+
+    .radio-inline:hover, .checkbox-inline:hover {
+        outline:3px solid aliceblue;
+        border-radius: 10px;
+    }
+
+</style>
+
+</head>
+<body>
+<link rel="stylesheet" type="text/css">
+<!--CARPIO, JOHN RANDEL-->
+<!--2022/04/29-->
+
+<!-- https://carpio-itbd.github.io/ -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<div class="container" style="text-align: center;">
+    <h1 style="font-size: 500%;"><span style="color: yellow">M</span>cDodododo</h1>
+
+    <div style="border: 2px dotted aliceblue; border-radius: 10px; margin: 10px; padding: 10px;">
+        <b>CONGRATULATIONS!</b> You have won a free meal raffle! You are entitled to a meal consisting of a Burger, Fries, Pasta, and a Drink, all Free of Charge! Please fill out the order form below to claim your meal!
+        
+        <br><br> <i><b>NOTE: </b>Although the meal is free, any additional order of fries and drinks will be charge up order.</i>
+    </div>
+
+    <form class="form-horizontal" action="" method="post">
+        
+        <fieldset name="burgerAndFries">
+
+            <legend style="border: none; text-align: left; width: auto; color: aliceblue; font-size:xx-large">BURGERS AND FRIES</legend>
+
+            <label>SELECT THE BUN TYPE YOU WANT</label><br>
+
+            <br>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/bun.png" style="width: 90%;"><br>
+                <input type="radio" name="optBuns" checked> NORMAL BUNS
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/bunSesame.png" style="width: 90%;"><br>
+                <input type="radio" name="optBuns"> SESAME BUNS
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/bunWheat.png" style="width: 90%;"><br>
+                <input type="radio" name="optBuns"> WHOLE WHEAT BUNS
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/bunGlut.png" style="width: 90%;"><br>
+                <input type="radio" name="optBuns"> GLUTTEN FREE BUNS
+            </label>
+
+            <hr>
+            
+            <label>INPUT THE QUANTITY OF PATTY AND CHEESE YOU WANT</label><br>
+    
+            <div class="" style="text-align: center; width: 30%; height: auto; display: inline-block;">
+                <img src="CARPIO_IMAGES_ITBD/Patty.png" style="width: 90%;">
+                <label for="pattyQuantity">PATTY</label>
+                <input type="number" class="form-control" id="pattyQuantity" name="pattyQuantity" min="1" max="5" placeholder="QUANTITY">
+            </div>
+    
+            <div class="" style="text-align: center; width: 30%; height: auto; display: inline-block;">
+                <img src="CARPIO_IMAGES_ITBD/cheese.png" style="width: 90%;">
+                <label for="cheeseQuantity">CHEESE</label>
+                <input type="number" class="form-control" id="cheeseQuantity" name="cheeseQuantity" min="1" max="10" placeholder="QUANTITY">
+            </div>
+
+            <hr>
+
+            <label>SELECT ALL THE VEGETABLES YOU WANT</label><br>
+
+            <label class="checkbox-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/lettuce.png" style="width: 90%;"><br>
+                <input type="checkbox"  value=""> LETTUCE
+            </label>
+
+            <label class="checkbox-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/tomato.png" style="width: 90%;"><br>
+                <input type="checkbox"  value=""> TOMATO
+            </label>
+
+            <label class="checkbox-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/onion.png" style="width: 90%;"><br>
+                <input type="checkbox"  value=""> ONION
+            </label>
+
+            <hr>
+
+            <label>SELECT THE SIZE AND SEASONING OF THE FRIES TO GO WITH YOUR BURGER</label><br>
+
+            <div class="" style="text-align: center; width: 90%; height: auto; display: inline-block;">
+                <img src="CARPIO_IMAGES_ITBD/fries.png" style="width: 50%;">
+                <div style="display: inline-block;">
+                    <label for="friesQuantity">QUANTITY</label>
+                    <input type="number" class="form-control" id="friesQuantity" name="friesQuantity" min="1" max="10" placeholder="SELECT QUANTITY">
+                </div>
+                <div style="display: inline-block;">
+                    <label for="friesSize">SIZE</label>
+                    <select class="form-control" id="friesSize">
+                        <option>SMALL</option>
+                        <option>MEDIUM</option>
+                        <option>LARGE</option>
+                        <option>EXTRA LARGE</option>
+                    </select>
+                </div>
+                <div style="display: inline-block;">
+                    <label for="friesFlavor">SEASONING</label>
+                    <select class="form-control" id="friesFlavor">
+                        <option>PLAIN SALT</option>
+                        <option>BARBEQUE</option>
+                        <option>CHEESE</option>
+                        <option>SOUR CREAM</option>
+                    </select>
+                </div>
+                
+                
+        </fieldset>
+
+        <fieldset name="pasta">
+            <legend style="border: none; text-align: left; width: auto; color: aliceblue; font-size:xx-large">PASTA</legend>
+
+            <label>SELECT THE PASTA YOU WANT</label><br>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/spaghetti.png" style="width: 90%;"><br>
+                <input type="radio" name="optPasta" checked> SPAGHETTI
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/carbonara.png" style="width: 90%;"><br>
+                <input type="radio" name="optPasta"> CARBONARA
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/pesto.png" style="width: 90%;"><br>
+                <input type="radio" name="optPasta"> PESTO
+            </label>
+
+            <hr>
+
+            <label class="checkbox-inline" style="text-align: center; width: 30%; height: auto;">
+                <input type="checkbox"  value="xcheese"> EXTRA CHEESE
+            </label>
+
+            <label class="checkbox-inline" style="text-align: center; width: 30%; height: auto;">
+                <input type="checkbox"  value="xsauce"> EXTRA SAUCE
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend style="border: none; text-align: left; width: auto; color: aliceblue; font-size:xx-large">DRINK</legend>
+
+            <label>SELECT A DRINK THAT YOU WANT WITH YOUR MEAL</label><br>
+
+            <label class="radio-inline" style="text-align: center; width: 15%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/coke.png" style="width: 90%;"><br>
+                <input type="radio" name="optDrink" checked> COKE
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 15%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/cokeDiet.png" style="width: 90%;"><br>
+                <input type="radio" name="optDrink"> DIET COKE
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 15%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/pepsi.png" style="width: 90%;"><br>
+                <input type="radio" name="optDrink">  PEPSI
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 15%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/sprite.png" style="width: 90%;"><br>
+                <input type="radio" name="optDrink"> SPRITE
+            </label>
+
+            <label class="radio-inline" style="text-align: center; width: 15%; height: auto;">
+                <img src="CARPIO_IMAGES_ITBD/cokeCaf.png" style="width: 90%;"><br>
+                <input type="radio" name="optDrink"> NO CAFFEINE DIET COKE
+            </label>
+
+            <hr>
+
+            <div style="display: inline-block; width: 40%;">
+                <label for="friesQuantity">QUANTITY</label>
+                <input type="number" class="form-control" id="drinkQuantity" name="drinkQuantity" min="1" max="10" placeholder="SELECT QUANTITY">
+                
+            </div>
+
+            <div style="display: inline-block; width: 40%;">
+                <label for="drinkSize">SIZE</label>
+                <select class="form-control" id="friesSize">
+                    <option>250ML</option>
+                    <option>500ML</option>
+                    <option>1L</option>
+                    <option>1.5L</option>
+                </select>
+            </div>
+            
+
+        </fieldset>
+
+        <fieldset style="text-align: left; padding: 5%; font-size: large;">
+            <legend style="border: none; text-align: left; width: auto; color: aliceblue; font-size:xx-large">DELIVER INFO</legend>
+
+            <div style="text-align: center; position:">
+                <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                    <img src="CARPIO_IMAGES_ITBD/Take Away-bro.svg" style="width: 90%;"><br>
+                    <input type="radio" name="optDelivery" checked> PICK-UP
+                </label>
+                <label class="radio-inline" style="text-align: center; width: 30%; height: auto;">
+                    <img src="CARPIO_IMAGES_ITBD/Take Away-pana.svg" style="width: 90%;"><br>
+                    <input type="radio" name="optDelivery" checked> DELIVERY
+                </label>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="ENTER YOUR NAME HERE">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Address:</label>
+                <input type="text" class="form-control" id="address" placeholder="ENTER YOUR FULL ADDRESS HERE">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Contact Number:</label>
+                <input type="number" class="form-control" id="contactNo" placeholder="ENTER YOUR CONTACT NUMBER" maxlength="11">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Delivery Instructions:</label>
+                <textarea class="form-control" rows="5" id="instructions" placeholder="PLACE HERE ANY ADDITIONAL INSTRUCTIONS FOR THE DELIVERY/SERVER TO FOLLOW"></textarea>
+            </div>
+        
+        </fieldset>
+
+        <fieldset style="text-align: left; padding: 5%; font-size: large;">
+            <legend style="border: none; text-align: left; width: auto; color: aliceblue; font-size:xx-large">FINISH YOUR ORDER!</legend>
+
+            <div class="form-group">
+                <label for="name">PLEASE HELP US IMPROVE OUR DELIVERY FORM</label>
+
+                <textarea class="form-control" rows="5" id="instructions" placeholder="ARE THERE ANY IMPROVEMENTS THAT WE CAN MAKE TO MAKE THE ORDERING PROCESS SMOOTHER? PLEASE TYPE IT HERE!"></textarea>
+            </div>
+
+            <br><br>
+            <div style="text-align: right;">
+                <input type="submit" class="btn btn-lg btn-success text-warning" value="SUBMIT ORDER">
+            </div>
+
+            
+        </fieldset>
+    </form>
+  </div>
+
+</body>
+</html>
